@@ -1,0 +1,103 @@
+{
+	"headerMenu": {
+		"home": "Home",
+		"settings": "Settings"
+	},
+	"defaultCities": {
+		"Miami": "Miami",
+		"London": "London",
+		"Kyiv": "Kyiv",
+		"Tokyo": "Tokyo",
+		"Sydney": "Sydney"
+	},
+	"inputPlaceholder": "City search",
+	"forecast": {
+		"realFeel": "Real feel:",
+		"humidity": "Humidity:",
+		"wind": "Wind:",
+		"rise": "Rise:",
+		"set": "Set:",
+		"high": "High:",
+		"low": "Low:",
+		"windSpeed": "m/s",
+		"windSpeedImp": "mi/h"
+	},
+	"forecastType": {
+		"daily": "daily forecast",
+		"hourly": "hourly forecast"
+	},
+	"localTime": "Local time ",
+	"settings": {
+		"title": {
+			"language": "Change the language",
+			"units": "Change the units",
+			"timeFormat": "Change the time format"
+		},
+		"value": {
+			"language": {
+				"en": "English",
+				"ua": "Ukrainian"
+			},
+			"units": {
+				"c": "Celsius",
+				"k": "Kelvin",
+				"f": "Fahrenheit"
+			},
+			"timeFormat": {
+				"h12": "12h",
+				"h24": "24h"
+			}
+		}
+	},
+	"settingsToast": "Settings was changed",
+	"weekDaysShort": {
+		"Mon": "Mon",
+		"Tue": "Tue",
+		"Wed": "Wed",
+		"Thu": "Thu",
+		"Fri": "Fri",
+		"Sat": "Sat",
+		"Sun": "Sun"
+	},
+	"weekDaysLong": {
+		"Mon": "Monday",
+		"Tue": "Tuesday",
+		"Wed": "Wednesday",
+		"Thu": "Thursday",
+		"Fri": "Friday",
+		"Sat": "Saturday",
+		"Sun": "Sunday"
+	},
+	"month": {
+		"January": "January",
+		"February": "February",
+		"March": "March",
+		"April": "April",
+		"May": "May",
+		"June": "June",
+		"July": "July",
+		"August": "August",
+		"September": "September",
+		"October": "October",
+		"November": "November",
+		"December": "December"
+	},
+	"weatherName": {
+		"Thunderstorm": "Thunderstorm",
+		"Drizzle": "Drizzle",
+		"Rain": "Rain",
+		"Snow": "Snow",
+		"Clear": "Clear",
+		"Clouds": "Clouds",
+		"Mist": "Mist",
+		"Smoke": "Smoke",
+		"Haze": "Haze",
+		"Fog": "Fog",
+		"Sand": "Sand",
+		"Dust": "Dust",
+		"Ash": "Ash",
+		"Squall": "Squall",
+		"Tornado": "Tornado"
+	},
+	"footerText": "© 2023 zhnchk. All rights reserved. Use of this site constitutes acceptance of our User Agreement and Privacy Policy and Cookie Statement. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used."
+}

@@ -46,7 +46,7 @@ export const ForecastListItem: React.FC<IForecastListItemProps> = ({ forecast, t
 			direction='column'
 			align='center'
 			justify='center'
-			fontSize={timeFormat === '24h' ? 'md' : 'sm'}>
+			fontSize={timeFormat === '24h' ? ['md', 'md', 'lg'] : ['sm', 'md', 'lg']}>
 			<Text fontWeight='light'>
 				{type === 'hourly'
 					? timeFormat === '24h'

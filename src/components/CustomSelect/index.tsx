@@ -32,14 +32,26 @@ export const CustomSelect: React.FC<ICustomSelectProps> = props => {
 							key={index}
 							onClick={() => {
 								props.onChange(item.value);
-								if (item.value !== props.value) {
-									toast({
-										position: 'bottom',
-										description: t('settingsToast'),
-										status: 'success',
-										duration: 800,
-										isClosable: false,
-									});
+								if (typeof item.value === 'object') {
+									if (item.value.units !== props.value.units) {
+										toast({
+											position: 'bottom',
+											description: t('settingsToast'),
+											status: 'success',
+											duration: 800,
+											isClosable: false,
+										});
+									}
+								} else {
+									if (item.value !== props.value) {
+										toast({
+											position: 'bottom',
+											description: t('settingsToast'),
+											status: 'success',
+											duration: 800,
+											isClosable: false,
+										});
+									}
 								}
 							}}>
 							{item.label}

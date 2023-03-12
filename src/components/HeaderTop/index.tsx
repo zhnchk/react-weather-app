@@ -5,7 +5,6 @@ import { useAppSelector } from '../../hooks/reduxHooks';
 // chakra UI
 import { Box, Container, Flex, Image, useColorMode } from '@chakra-ui/react';
 // images
-import Logo from './icon.png';
 import { HeaderTopMenuLink } from '../HeaderTopMenuLink';
 // locales
 import { useTranslation } from 'react-i18next';
@@ -22,7 +21,13 @@ export const HeaderTop: React.FC = () => {
 			<Container maxW={'container.lg'}>
 				<Flex justify='space-between' align='center'>
 					<Link to='/'>
-						<Image src={Logo} alt='logo' boxSize={75} objectFit='cover' cursor='pointer' />
+						<Image
+							src='http://openweathermap.org/img/wn/02d@2x.png'
+							alt='logo'
+							boxSize={75}
+							objectFit='cover'
+							cursor='pointer'
+						/>
 					</Link>
 					<Flex
 						as='nav'

@@ -20,11 +20,11 @@ export const HeaderTop: React.FC = () => {
 		<Box py={2} bg={colorMode === 'light' ? 'gray.300' : 'gray.700'}>
 			<Container maxW={'container.lg'}>
 				<Flex justify='space-between' align='center'>
-					<Link to='/'>
+					<Link to='/react-weather-app/'>
 						<Image
 							src='http://openweathermap.org/img/wn/02d@2x.png'
 							alt='logo'
-							boxSize={75}
+							boxSize='75px'
 							objectFit='cover'
 							cursor='pointer'
 						/>
